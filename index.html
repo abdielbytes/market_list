@@ -5,26 +5,27 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
+        
     <div class="marketapp">
         
         <header>Market List</header>
 
-        <input type="text" placeholder="Add a new item to your market list">
+        <input id="newmarketInput" type="text" placeholder="Add a new item to your market list">
 
-        <button>Add</button>
+        <button id="addMarketButton">Add</button>
 
 
-        <ul>
-            <li>Curry</li>
+        <ul id="marketList">
+            <!-- <li>Curry</li>
             <li>Maggi Star</li>
-            <li>Goat meat</li>
+            <li>Goat meat</li> -->
         </ul>
 
-
         <footer>
-            <p>0 items left</p>
+            <p id="marketCount"><strong>0</strong> items left</p>
             <button>Clear bought Items</button>
         </footer>
     </div>
+    <script src="app.js"></script>
     </body>
 </html>
